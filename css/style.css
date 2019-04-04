@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.body {
+	font: arial;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 50px 150px 0 150px;
+	line-height: 1.4;
+}
+
+.fuck {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 15px;
+	font: bold;
+}
+
+.menu li > a {
+	display: block;
+	text-decoration: none;
+	padding: 10px 40px;
+	color: white;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+
+.menu {
+	list-style: none;
+	display: block;
+	text-decoration: none;
+	background: linear-gradient(to top, black, grey);
+}
+
+.menu li > a:hover {
+	text-decoration: none;
+	display: inline;
+	font-size: 15px;
+	font: bold;
+	margin: 0px;
+	background: linear-gradient(to top, red, black);
+	border-color: grey;
+}
+
+.logo {
+	list-style: none;
+	display: block;
+	padding: 0px 0px 40px 0px;
+}
+
+nav {
+	margin: 0;
+	background-color: none;
+}
+
+nav a {
+	display: block;
+	padding: 0 25px;
+	margin: 0px;
+	color: darkgrey;
+	font-size: 15px;
+	line-height: 50px;
+	text-decoration: none;
+	border-color: black;
+}
+
+.main-menu li > a:hover {
+	text-decoration: none;
+	display: block;
+	font-size: 15px;
+	font: bold;
+	padding-left: 45px;
+	background: darkgray;
+	border-color: grey;
+}
+
+.main-menu li > a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	border: 1px #A4a195 solid;
+}
+
+.main-menu {
+	list-style: none;
+	display: inline-block;
+	text-decoration: none;
+	background: white;
+	width: 20%;
+	height: 20px;
+	position: static;
+	top: 50px;
+}
+
+.img {
+	list-style: none;
+	display: inline-block;
+	margin-left: 100px;
+	border: 1px darkgray solid;
+	padding: 40px 100px;
+	position: relative;
+	top: 55px;
+}
+
+.text {
+	list-style: none;
+	display: inline-block;
+	margin: 0 0 30px 230px;
+	padding: 40px 100px;
+	position: relative;
+	top: 55px;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.menud li > a {
+	display: block;
+	text-decoration: none;
+	padding: 10px 40px;
+	color: black;
+	border-left: 2px solid transparent;
+	border-right: 2px solid transparent;
+	background-color: lightgrey;
+}
+
+.menud {
+	list-style: none;
+	display: list-item;
+	margin: 40px 0;
+	text-decoration: none;
+	background: lightgray;
+}
+
+.menud li > a:hover {
+	text-decoration: underline;
+	display: inline;
+	font-size: 15px;
+	font: bold;
+    margin: 0px;
+	background: darkgrey;
+}
+
+.down {
+	position: relative;
+	margin-left: 250px;
+}
+
+/* li > a:first-child {
+	border-left: none;
+}
+
+li > a:last-child {
+	border-right: none;
+} */
